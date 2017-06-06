@@ -1,0 +1,6 @@
+@article{schluter2014structural,
+  title={Structural segmentation with convolutional neural networks mirex submission},
+  author={Schl{\"u}ter, Jan and Ullrich, Karen and Grill, Thomas},
+  journal={Tenth running of the Music Information Retrieval Evaluation eXchange (MIREX 2014)},
+  year={2014}
+}

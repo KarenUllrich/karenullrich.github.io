@@ -1,0 +1,7 @@
+@inproceedings{ullrich2014boundary,
+  title={Boundary Detection in Music Structure Analysis using Convolutional Neural Networks.},
+  author={Ullrich, Karen and Schl{\"u}ter, Jan and Grill, Thomas},
+  booktitle={ISMIR},
+  pages={417--422},
+  year={2014}
+}

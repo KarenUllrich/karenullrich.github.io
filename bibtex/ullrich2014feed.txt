@@ -1,0 +1,6 @@
+@phdthesis{ullrich2014feed,
+  title={Feed-forward neural networks for boundary detection in music structure analysis},
+  author={Ullrich, Karen},
+  year={2014},
+  school={University of Amsterdam}
+}

@@ -1,0 +1,6 @@
+@article{louizos2017bayesian,
+  title={Bayesian Compression for Deep Learning},
+  author={Louizos, Christos and Ullrich, Karen and Welling, Max},
+  journal={arXiv preprint arXiv:1705.08665},
+  year={2017}
+}

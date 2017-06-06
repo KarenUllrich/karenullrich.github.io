@@ -1,0 +1,9 @@
+@article{horn2017methane,
+  title={Methane storage and ebullition in monimolimnetic waters of polluted mine pit lake Vollert-Sued, Germany},
+  author={Horn, Christin and Metzler, Philipp and Ullrich, Karen and Koschorreck, Matthias and Boehrer, Bertram},
+  journal={Science of The Total Environment},
+  volume={584},
+  pages={1--10},
+  year={2017},
+  publisher={Elsevier}
+}

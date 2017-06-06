@@ -1,0 +1,238 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karen Ullrich.</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- header top section -->
+<section class="banner" role="banner">
+  <header id="header">
+    <div class="header-content clearfix">
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+</section>
+<!-- header top section -->
+<!-- header content section -->
+<section id="works-info" class="section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-6 hero">
+        <div class="hero-content">
+          <h3>Deep Learning for Music</h3>
+          <p>(2013-present)</p>
+          <p> I have been working on classical music information retrieval problems for some time now. I am currently supervising students, to build useful systems that require little or no target data.</p>
+        </div>
+        <!-- hero -->
+      </div>
+      <div class="col-md-5 col-sm-6 hero text-center">
+        <div class="hero-content"> <a href="index.html" class="btn"> Take me back <i class="fa fa-long-arrow-right"></i> </a> </div>
+        <!-- hero -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- header content section -->
+<!-- portfolio grid section -->
+<section id="portfolio">
+<div class="container">
+<hr class="section">
+
+<div class="paper">
+  <h4>Music Transcription with Convolutional Sequence-to-Sequence models (2017)</h4>
+
+    <div class="meta">
+      <em>Karen Ullrich, Eelco van der Wel</em>
+      <a href="pdfs/2017_ismir_2.pdf"> [PDF] </a>
+      <!-- <a href="#"> [BIBTEX] </a> -->
+      <br/>
+      <em> UNDER SUBMISSION for the International Conference on Music Information Retrieval (ISMIR) 2017, Suzhou, China.</em>
+      <br/><br/>
+    </div>
+
+    <div class="abstract">
+      <p>Automatic Music Transcription (AMT) is a fundamental problem in Music Information Retrieval (MIR). The challenge is to translate an audio sequence to a symbolic representation of music.
+           Recently, convolutional neural networks (CNNs) have been successfully applied to the task by translating frames of audio. However, those models can by their nature not model temporal relations and long time dependencies. Furthermore, it is extremely labor intense to get annotations for supervised learning in this setting.
+           We propose a model that overcomes all these problems. The convolutional sequence to sequence (Cseq2seq) model applies a CNN to learn a low dimensional representation of audio frames and a sequential model to translate these learned features to a symbolic representation directly.
+           Our approach has three advantages over other methods: (i) extracting audio frame representations and learning the sequential model is jointly trained end-to-end, (ii) the recurrent model can capture temporal features in musical pieces in order to improve transcription, and (iii) our model learns from entire sequences as opposed to temporally accurately annotated onsets and offsets for each note thus making it possible to train on large already existing corpora of music.
+           For the purpose of testing our method we created our own dataset of 17K monophonic songs and respective MusicXML files. Initial experiments proof the validity of our approach. <br><br></p>
+    </div>
+</div>
+<div class="paper">
+  <h4>Optical Music Recognition with Convolutional Sequence-to-Sequence models (2017)</h4>
+
+    <div class="meta">
+      <em>Eelco van der Wel, Karen Ullrich</em>
+      <a href="pdfs/2017_ismir_1.pdf"> [PDF] </a>
+      <!-- <a href="#"> [BIBTEX] </a> -->
+      <br/>
+      <em> UNDER SUBMISSION for the International Conference on Music Information Retrieval (ISMIR) 2017, Suzhou, China.</em>
+      <br/><br/>
+    </div>
+
+    <div class="abstract">
+      <p>Optical Music Recognition (OMR) is an important technology within Music Information Retrieval. Deep learning models show promising results on OMR tasks, but
+             symbol-level annotated data sets of sufficient size to train
+             such models are not available and difficult to develop. We
+             present a novel deep learning architecture called a Convolutional Sequence-to-Sequence model to both move towards an end-to-end trainable OMR pipeline, and improve
+             the learning process by training on full sentences of sheet
+             music instead of individually labeled symbols. The model
+             is trained and evaluated on a human generated data set,
+             with various image augmentations based on real-world
+             scenarios. This data set is the first publicly available set
+             in OMR research with sufficient size to train and evaluate
+             deep learning models. With the introduced augmentations
+             a pitch recognition accuracy of 81% and a duration accuracy of 94% is achieved, resulting in a note level accuracy
+             of 80%.<br><br></p>
+    </div>
+</div>
+
+<div class="paper">
+  <h4>Structural Segmentation with convolutional neural networks Mirex Submission (2014)</h4>
+    <div class="meta">
+      <em>Jan Schülter, Karen Ullrich, Thomas Grill</em>
+      <a href="bibtex/schluter2014structural.txt"> [BIBTEX] </a>
+      <br/>
+      <em> Music Information Retrieval Evaluation eXchange Challange.</em>
+      <br/><br/>
+    </div>
+    <div class="abstract">
+        <p><br><br></p>
+    </div>
+</div>
+
+
+<div class="paper">
+  <h4>Boundary Detection in Music Structure Analysis using Convolutional Neural Networks (2014)</h4>
+
+    <div class="meta">
+      <em>Karen Ullrich, Jan Schülter, Thomas Grill</em>
+      <a href="pdfs/2014_ismir.pdf"> [PDF] </a>
+      <a href="bibtex/ullrich2014boundary.txt"> [BIBTEX] </a>
+      <a href="http://www.ofai.at/research/impml/projects/audiostreams/ismir2014/"> [DEMO] </a>
+      <br/>
+      <em> Accapted paper at the International Conference on Music Information Retrieval (ISMIR) 2014, Taipei, Taiwan.</em>
+      <br/><br/>
+    </div>
+
+    <div class="abstract">
+        <p>The recognition of boundaries, e.g., between chorus and
+          verse, is an important task in music structure analysis. The
+          goal is to automatically detect such boundaries in audio
+          signals so that the results are close to human annotation.
+          In this work, we apply Convolutional Neural Networks to
+          the task, trained directly on mel-scaled magnitude spectrograms.
+          On a representative subset of the SALAMI structural
+          annotation dataset, our method outperforms current
+          techniques in terms of boundary retrieval F-measure at different
+          temporal tolerances: We advance the state-of-the-art
+          from 0.33 to 0.46 for tolerances of ±0.5 seconds, and from
+          0.52 to 0.62 for tolerances of ±3 seconds. As the algorithm
+          is trained on annotated audio data without the need
+          of expert knowledge, we expect it to be easily adaptable
+          to changed annotation guidelines and also to related tasks
+          such as the detection of song transitions.<br><br></p>
+    </div>
+</div>
+
+<div class="paper">
+  <h4>Feed-Forward Neural Networks for boundary detection in music structure Analysis (2014)</h4>
+
+    <div class="meta">
+      <em> Master Thesis, University of Amsterdam, Amsterdam, The Netherlands.</em>
+        <a href="pdf/master_thesis.pdf"> [PDF] </a>
+        <a href="bibtex/ullrich2014feed.txt"> [BIBTEX] </a>
+        <br/><br/>
+    </div>
+    <div class="abstract">
+        <p>Following pioneering studies that first applied neural networks in the field of music information retrieval (MIR),
+          we apply feed forward neutral networks to retrieve boundaries in musical pieces, e.g., between chorus and verse.
+          Detecting such segment boundaries is an important task in music structure analysis, a sub-domain of MIR. To
+          that end, we developed a framework to perform supervised learning on a representative subset of the SALAMI
+          data set, containing structural annotations. More specifically, we apply convolutional networks to learn spatial
+          relationships and fully connected layers, to detect segment boundaries automatically. In that context, the data
+          was presented to the networks as mel-scaled magnitude spectrograms. Furthermore, we applied the dropout
+          technique. After optimising our models with respect to various hyper-parameters, we find them to outperform
+          the F-score of any algorithm in the MIREX campaign of 2012 and 2013. In particular, we achieved F-measures
+          of 0.476 for tolerances of ±0.5s and 0.619 for tolerances of ±3s. These are differences to current techniques
+          of 0.14 and 0.09. Our method is particularly outstanding because it is mainly data driven and does not utilize
+          hand-crafted high-level features to create classifiers. When investigating the method further, we find that even
+          with such a simple general-purpose feature as chroma vectors and no convolutional layers we can still achieve
+          results comparable to existing algorithms. Moreover, we visualised which regions of the input are of highest
+          interest for our networks. As a result, we found all networks to concentrate on very similar time and frequency
+          bands.<br><br></p>
+    </div>
+</div>
+
+
+
+
+</div>
+</section>
+<!-- service section -->
+<section id="backto" class="work-detail section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center section"> <a href="index.html"><i class="fa fa-th fa-2x"></i></a>
+        <p>TAKE ME BACK</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- service section -->
+<!-- footer section -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="col-md-6 left">
+      <h4>CONTACT.</h4>
+      <p> Email : <a href="mailto:karn.ullrich@gmail.com"> karn[punkt]ullrich[ät]gmail[punkt]com</a></p>
+      <table>
+        <tr>
+          <td>Address : </td>
+          <td>&nbspScience Park 904</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>&nbsp1098 XM Amsterdam</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>&nbspRoom C3.260</td>
+        </tr>
+      </table>
+    </div>
+    <p><br><br>© 2017 All rights reserved.<br>
+    Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+
+  </div>
+</footer>
+<!-- footer section -->
+
+<!-- JS FILES -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
