@@ -1,0 +1,6 @@
+@article{federici2017improved,
+  title={Improved Bayesian Compression},
+  author={Federici, Marco and Ullrich, Karen and Welling, Max},
+  journal={arXiv preprint arXiv:1711.06494},
+  year={2017}
+}
