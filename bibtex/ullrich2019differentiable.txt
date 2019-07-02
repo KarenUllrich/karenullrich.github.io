@@ -1,0 +1,6 @@
+@article{ullrich2019differentiable,
+  title={Differentiable probabilistic models of scientific imaging with the Fourier slice theorem},
+  author={Ullrich, Karen and Berg, Rianne van den and Brubaker, Marcus and Fleet, David and Welling, Max},
+  journal={Conference on Uncertainty in Artificial Intelligence (UAI)},
+  year={2019}
+}
